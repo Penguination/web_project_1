@@ -8,9 +8,6 @@
   /* this ensures that all content is centered on screens wider than 1600px */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-div {
-  /* border: 1px solid red; */
-}
 
 .header {
   height: 100vh;
@@ -62,7 +59,8 @@ div {
   z-index: -1;
   position: absolute;
   top: 64px;
-  right: 0
+  right: 0;
+  align-self: right;
 }
 .
 /* including elements with key-value modifiers */
@@ -98,19 +96,14 @@ div {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  /* margin: auto; */
   width: 80%;
   /* border: 1px solid cyan; */
-  /* min-width: 784px; */
 }
 .two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
   /* border: 1px solid orange; */
-}
-.two-columns__paragraph {
-  /* border: 1px solid greenyellow; */
 }
 .digits {
   margin: 100px auto;
@@ -156,4 +149,48 @@ div {
 line-height: 1.2;
 font-size: 18px;
 font-weight: normal;
+}
+.feynman {
+  border: 1px solid red;
+  height: 790px;
+  position: relative;
+}
+.feynman__title {
+  width: 775px;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+
+  text-align: center;
+  margin: auto;
+  padding-top: 40px;
+}
+.feynman__subtitle {
+  text-align: center;
+  margin: auto;
+  position: relative;
+
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  top: 70px;
+}
+.feynman__link {
+  position: absolute;
+  right: 40px;
+  top: 50%;
+
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  color: #000;
+  text-decoration: none;
+}
+.feynman__image {
+  width: 867px;
+  height: 637px;
+  position: absolute;
+  z-index: -1;
+
+  bottom: 0;
 }
