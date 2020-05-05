@@ -18,7 +18,7 @@
   border: 1px solid red;
   /* parameters for the header section */
 }
-.header__logo_place_header {
+.logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
@@ -62,27 +62,17 @@
   right: 0;
   align-self: right;
 }
-.
-/* including elements with key-value modifiers */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
-.content {
-  margin-top: 100px;
-}
 .description {
-  display: flex;
-  justify-content: space-between;
+  /* display: flex; */
+  /* justify-content: space-between; */
   margin: 100px;
   border: 1px solid red;
+  width: 80%
 }
 .two-columns {
   /* border: 1px solid black; */
-  width: 80%;
-  min-width: 784px
+  display: flex;
+  justify-content: space-between;
 }
 .two-columns__brief {
   line-height: 1.2;
@@ -98,12 +88,18 @@
   font-weight: normal;
   width: 80%;
   /* border: 1px solid cyan; */
+  min-width: 784px;
 }
 .two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
   /* border: 1px solid orange; */
+}
+.two-columns__paragraph {
+  margin-top: 0;
+  /* border: 1px solid midnightblue; */
+
 }
 .digits {
   margin: 100px auto;
@@ -116,36 +112,48 @@
   font-weight: bold;
   width: 60%;
   text-align: center;
+}
+.section-title_theme_light {
   margin: auto;
 }
 .section-subtitle {
-  /* border: 1px solid blue; */
+  /* border: 1px solid burlywood; */
   text-align: center;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
   width: 60%;
-  margin: auto;
+}
+.section-subtitle_theme_light {
+  margin: 20px auto 0;
 }
 .table {
   /* border: 1px solid orangered; */
-  width: 1100px;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  margin: auto;
+  justify-content: space-between;
+  padding: 0;
+}
+.table_theme_light {
+  width: 1100px;
+  margin: 0 auto 100px;
 }
 .table__cell {
-  border: 1px solid yellowgreen;
+  /* border: 1px solid yellowgreen; */
+}
+.table__cell_theme_light{
+  margin: 60px 0 0;
   width: 250px;
-  padding: 60px 0 60px 20px;
 }
 .table__heading {
+  /* border: 1px solid firebrick; */
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
 }
 .table__text {
+/* border: 1px solid salmon; */
 line-height: 1.2;
 font-size: 18px;
 font-weight: normal;
@@ -191,9 +199,52 @@ font-weight: normal;
   height: 637px;
   position: absolute;
   z-index: -1;
-
   bottom: 0;
 }
 .kaufman {
   background-color: #000;
+  overflow: hidden;
+  border: 1px solid yellow;
+  position: relative;
+  z-index: -2;
+}
+.kaufman__triangle {
+  width: 877px;
+  height: 877px;
+  /* border: 1px solid rgb(1, 248, 248); */
+  position: absolute;
+  top: 0;
+  right: -210px;
+  background: url(../images/kaufman-triangle.svg);
+  z-index: -1;
+}
+.section-title_theme_dark {
+  margin: 90px auto 20px;
+  color: #fff;
+  /* border: 1px solid palegreen; */
+  width: 60%;
+}
+.section-subtitle_theme_dark {
+  color: #fff;
+  /* border: 1px solid fuchsia; */
+  margin: auto;
+}
+.table_theme_dark {
+  width: 1200px;
+  margin: 0 auto 90px;
+}
+.table__cell_theme_dark {
+  width: 230px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+  /* border: 1px solid rosybrown; */
+}
+.table__heading_theme_dark {
+  margin: 0;
+  /* border: 1px solid teal; */
+}
+.table__text_theme_dark {
+  /* border: 1px solid indianred; */
+  margin: 20px 0 0;
 }
