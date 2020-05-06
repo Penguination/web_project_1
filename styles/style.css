@@ -15,7 +15,9 @@
   max-height: 756px;
   position: relative;
   display: flex;
-  background-color: #f2f2f2
+  background-color: #f2f2f2;
+  z-index: -2;
+
   /* border: 1px solid red; */
   /* parameters for the header section */
 }
@@ -162,13 +164,13 @@ font-weight: normal;
   height: 790px;
   position: relative;
   background-color: #f2f2f2;
+  z-index: -2;
 }
 .feynman__title {
   width: 775px;
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
-
   text-align: center;
   margin: auto;
   padding-top: 40px;
@@ -247,27 +249,27 @@ font-weight: normal;
   margin: 20px 0 0;
 }
 .footer {
-  border: 1px solid seagreen;
+  /* border: 1px solid seagreen; */
   background-color: #1f1f1f;
   min-height: 350px;
   color: white;
-  /* position: relative */
+  display: flex;
 }
 .logo_place_footer {
-  border: 1px solid firebrick;
+  /* border: 1px solid firebrick; */
   width: 183px;
   height: 35px;
   background-size: contain;
 }
 .footer__columns {
-  border: 1px solid firebrick;
+  /* border: 1px solid firebrick; */
   display: flex;
   width: 90%;
   margin: 60px auto 40px;
   justify-content: space-between;
 }
 .footer__column_content_copyright{
-  border: 1px solid rgb(235, 113, 8);
+  /* border: 1px solid rgb(235, 113, 8); */
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -277,34 +279,34 @@ font-weight: normal;
   justify-content: space-between;
 }
 .footer__column_content_info {
-  border: 1px solid white;
+  /* border: 1px solid white; */
   margin:0;
   /* margin-bottom: 16px; */
   padding: 0;
 }
 .footer__column_content_social {
-  border: 1px solid palevioletred;
+  /* border: 1px solid palevioletred; */
   margin: 0;
   padding: 0
 }
 .footer__author {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   margin: 18px 0;
 }
 .footer__column-heading {
-  border: 1px solid teal;
+  /* border: 1px solid teal; */
   line-height: 45px;
   font-size: 18px;
   font-weight: bold;
   margin: 0;
 }
 .footer__social-icon {
-  border: 1px solid rebeccapurple;
+  /* border: 1px solid rebeccapurple; */
   height: 16px;
   width: 16px;
 }
 .footer__column-links {
-  border: 1px solid violet;
+  /* border: 1px solid violet; */
   color: white;
   text-decoration: none;
   list-style: none;
