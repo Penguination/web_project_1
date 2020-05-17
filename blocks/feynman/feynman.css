@@ -1,7 +1,7 @@
-@import url(./__title/feynman__tile.css);
-@import url(./__subtitle/feynman__subtitle.css);
-@import url(./__link/feynman__link.css);
-@import url(./__image/feynman__image.css);
+@import url('./__title/feynman__tile.css');
+@import url('./__subtitle/feynman__subtitle.css');
+@import url('./__link/feynman__link.css');
+@import url('./__image/feynman__image.css');
 .feynman {
   min-height: 790px;
   position: relative;
