@@ -19,7 +19,7 @@
         that you can apply to your daily life.
         <a class="header__link" href="#">Learn more →</a>
       </p>
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic rotation"></div>
     </header>
     <main class="content">
       <section class="description">
@@ -107,22 +107,12 @@
         <div class="video__iframes">
           <iframe
             class="video__iframe"
-            id="ytplayer"
-            type="text/html"
-            width="720"
-            height="405"
             src="https://www.youtube.com/embed/5MgBikgcWnY"
-            frameborder="0"
             allowfullscreen>
           </iframe>
           <iframe
             class="video__iframe"
-            id="ytplayer"
-            type="text/html"
-            width="720"
-            height="405"
             src="https://www.youtube.com/embed/arj7oStGLkU"
-            frameborder="0"
             allowfullscreen>
           </iframe>
           </div>
@@ -153,7 +143,7 @@
         <h2 class="feynman__title">The Feynman Technique</h2>
         <p class="feynman__subtitle">Learn without forgetting.</p>
         <a class="feynman__link" href="#">More →</a>
-        <img class="feynman__image" src="images/feynman.png" alt="Picture of Feynman">
+        <div class="feynman__image"></div>
       </section>
 
       <section class="digits">
@@ -170,8 +160,8 @@
             <h3 class="table__heading">2.1 billion</h3>
             <p class="table__text">
               The number of adults with low reading proficiency
-              <p class="table__text">World Bank, 2017</p>
             </p>
+            <p class="table__text">World Bank, 2017</p>
             </li>
           <li class="table__cell">
             <h3 class="table__heading">1,000 terabytes</h3>
@@ -189,8 +179,8 @@
             <h3 class="table__heading">420 million</h3>
             <p class="table__text">
               The number of adults under 25 with insufficient education for finding employment
-              <p class="table__text">World Bank, 2017</p>
             </p>
+            <p class="table__text">World Bank, 2017</p>
           </li>
           <li class="table__cell">
             <h3 class="table__heading">17 - 20 years old</h3>
@@ -213,13 +203,13 @@
         <div class="khan__container">
           <p class="khan__author">Salman Khan</p>
           <h3 class="khan__title">The One World Schoolhouse</h3>
-          <p class="khan__quote">
+          <blockquote class="khan__quote">
             Sal Khan's passion and innovation is transforming learning for millions of
             students worldwide. The One World Schoolhouse is a must-read for all
             who are committed to improving education so students everywhere can
             gain the skills and knowledge to be successful in school, careers and life.
-            </p>
-            <p class="khan__quote-author">George Lucas</p>
+          </blockquote>
+            <h4 class="khan__quote-author">George Lucas</h4>
             <p class="khan__quote-author-subline">Filmmaker</p>
             <div class="khan__book-container">
               <img class="khan__book-pic" src="./images/khan-book.png" alt="Book cover">
@@ -326,19 +316,27 @@
             </p>
           </li>
         </ol>
-        <div class="kaufman__triangle"></div>
+        <div class="kaufman__triangle rotation"></div>
       </section>
 
       <section class="resources">
         <h2 class="section-title">Useful Resources</h2>
         <p class="section-subtitle">Further materials on learning techniques and hacks.
         </p>
-        <div class="resources__logo-zone">
-          <img class="resources__logo" src="images/logo/resources-tedED.png" alt="TEDEd logo">
-          <img class="resources__logo" src="images/logo/resources-Medium.png" alt="Medium logo">
-          <img class="resources__logo" src="images/logo/resources-dezeen.png" alt="Dezeen logo">
-          <img class="resources__logo" src="images/logo/resources-goodreads.png" alt="Goodreads logo">
-        </div>
+        <ul class="resources__logo-zone">
+          <li>
+            <img class="resources__logo" src="images/logo/resources-tedED.png" alt="TEDEd logo">
+          </li>
+          <li>
+            <img class="resources__logo" src="images/logo/resources-Medium.png" alt="Medium logo">
+          </li>
+          <li>
+            <img class="resources__logo" src="images/logo/resources-dezeen.png" alt="Dezeen logo">
+          </li>
+          <li>
+            <img class="resources__logo" src="images/logo/resources-goodreads.png" alt="Goodreads logo">
+          </li>
+        </ul>
       </section>
     </main>
     <footer class="footer">
