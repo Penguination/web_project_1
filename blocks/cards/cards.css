@@ -2,3 +2,13 @@
 @import url(./__image/cards__image.css);
 @import url(./__title/card__title.css);
 @import url(./__description/cards__description.css);
+.cards {
+  border: 1px solid red;
+  margin: auto;
+  width: 920px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 0;
+  align-self: center;
+}
